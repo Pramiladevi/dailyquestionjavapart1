@@ -1,0 +1,71 @@
+1.Explain about the main method in java?
+ public static void main (string args[])
+         *  Public - is a access Specifier.
+         *  Static - is an Keyword.
+          * Void -is a Return Type 
+           *Main -It is an Method Name.
+           *String args -It is an Array of String Type.
+
+2.What are the different  Control flow Statements available in java?
+        3 different  flow statements are available in java.                   
+                     * Decision Making Statements.
+                     * Loop Statements.  
+                     * Jump Statements.
+  Decision Making Statements
+                     * if statements.
+                     * switch statements.
+   Loop Statements
+                    * do while loop.
+                    * while loop.
+                    * for loop.
+                    * for-each loop.
+   Jump Statements
+                  * break statement.
+                  * continue statement.
+
+3.What is the Difference betweeen break and continue statements?
+  Break Statement.
+             *The break statement is used to terminate the loop immediately.
+             *Break keyword is used to indicate break statements.
+      Continue Statements.
+             *The continue statement is used to skip  the current iteration of the loop.
+             *Continue keyword is used to indicate continue statements.
+
+4.What is an Array? How will you declare an array in java?
+Array:
+*Array is a collection of similar type of data items stored at a contiguous memory allocation.
+* To declare an array in java as we do other variables by providing a type and name:  int[] array1;
+
+5.When will you get ArrayIndexOutOfBoundsException?
+  *The Array Index Out Of Bounds Exception thrown if a program tries  to access an array index that is negative,greaterthan,or equal to the length of the array.
+
+6.Define the Syntax to create an object for a class.
+   *When we create an instance of the class by using the new keyword,it allocates memory(heap) for the newly created object and also returns of that object to that memory. 
+         The syntax for creating an object with new keyword: className object = new ClassName();
+
+7.What are the naming conventions to be followed while creating a class, 
+method and a variable.Explain with examples
+         * Class names should be nouns,in mixed cases with the first letter of each internal word capitalized.
+           *Method and  variable name should starts with lower case.The name contains multiple words,start it with lower caseletter followed by an upper case such as firstName();
+
+7.What is Variable?How will you declare a variables in java?
+    * A Varaibles is a container to hold a data.it has a name ,value and a datatype.
+    * To declare (create)a variable,you will specify the datatype,leave at least one space,then the name for the variable and end the line with a semicolon(;).
+
+8.What is String in java? Is it a Data Type?
+ *String is a  sequence of different character followed by a null character.A set of character are enclosed with double quote.
+ * yes,  it is Non primitive Data Type
+
+9.What are the different ways to create the String Object in java?
+ There are Two Ways to create the string object;
+         *  Using String literal:Java string literal is created by using double quotes.
+                        String name1="Welcome";
+          * Using New keyword:Java String is created by using a keyword "new"
+                         String name1= new string("Welcome");
+10.What is the Difference between .Equals and ==? 
+    .Equals
+               *Equals is a method of object class.
+                *Method should be used for content comparison.
+    ==
+               *Should be used during reference comparison.
+               *Check if both references points to same location or not. 
